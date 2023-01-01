@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+/*=============== logo ================*/
+h1 {
+  font-family: $font-logo;
+}
+
+#first {
+  font-weight: 100;
+  color: white;
+}
+
+#second {
+  color: $buttons-highlights-color;
+  font-weight: 700;
+}
+
+/*=============== 4 linki ================*/
+.header {
+  max-width: 1440px;
+  max-height: 80px;
+  margin: 0 auto;
+  background-color: $firstcolor;
+  display: flex;
+
+  .navBar {
+    display: flex;
+    margin-left: 80px;
+
+    .navBar_list {
+      display: flex;
+
+      ul {
+
+        list-style: none;
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+
+        #firstlist {
+          color: #FF6600;
+        }
+
+        a {
+          font-family: $font-primary;
+          color: white;
+          list-style: none;
+          text-decoration: none;
+          display: flex;
+          padding-right: 50px;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}

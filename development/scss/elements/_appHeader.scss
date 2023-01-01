@@ -1,0 +1,64 @@
+.app__header {
+  margin: 0 auto;
+  width: 1440px;
+  .user {
+  height: 80px;
+  width: 1440px;
+  display: flex;
+  padding: 10px;
+  margin-right: 50px;
+  justify-content: center;  background-color: #4A4A49;
+
+  .user__text {
+    font-family: $font-open-sans;
+    align-self: center;
+    color: $bg-color;
+  }
+
+  .user__avatar {
+    align-self: center;
+    background: transparent;
+    border: none;
+    color: $button-color;
+  }
+
+}
+
+
+  .user {
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    margin-right: 50px;
+    justify-content: center;
+
+    .user__text {  
+      position: relative;
+      left:530px;
+      font-family: $font-open-sans;
+      align-self: center;
+      color: $bg-color;
+    }
+
+    .user__avatar {
+      position: relative;
+      left:530px;
+      align-self: center;
+      background: transparent;
+      border: none;
+      color: $button-color;
+    }
+
+  }
+
+}
+.logo{
+
+  position: relative;
+  right:560px;
+  align-self: center;
+  font-size: 24px;
+  h1{
+    display: flex;      align-self: center;    justify-content: center;
+  }
+}
